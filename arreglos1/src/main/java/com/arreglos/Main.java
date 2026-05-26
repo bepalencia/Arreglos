@@ -72,6 +72,8 @@ public class Main {
                 
                     if(tablaBingo[i][j] == numero){
                         System.out.println("El numero " + numero + " se encuentra en la posición [" + i + "][" + j + "]");
+                    }else{
+                        System.out.println("El numero " + numero + " no se encuentra en la posición [" + i + "][" + j + "]");
                     }
                 }
             }
