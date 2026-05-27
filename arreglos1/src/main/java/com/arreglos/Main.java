@@ -76,13 +76,28 @@ public class Main {
                     }else{
                         System.out.println("El numero " + numero + " no se encuentra en la posición [" + i + "][" + j + "]");
                     }
+
+                    
                 }
             }
 
+
+            for(int i = 0; i < tablaBingo.length; i++){
+                for(int j = 0; j < tablaBingo[i].length; j++){
+                System.out.print(tablaBingo[i][j] + " ");
+            }
+            System.out.println();
+        }
             
             
         }while(numero != -1);
        
+         for(int i = 0; i < tablaBingo.length; i++){
+            for(int j = 0; j < tablaBingo[i].length; j++){
+                System.out.print(tablaBingo[i][j] + " ");
+            }
+            System.out.println();
+        }
        
 
         
