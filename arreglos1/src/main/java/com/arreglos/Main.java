@@ -58,7 +58,7 @@ public class Main {
         for(int i = 0; i < tablaBingo.length; i++){
             for(int j = 0; j < tablaBingo[i].length; j++){
                 tablaBingo[i][j] = (int)(Math.random() * 100) + 1;
-                System.out.print(tablaBingo[i][j] + " ");
+                System.out.print(tablaBingo[i][j] + " \t");
             }
             System.out.println();
         }
@@ -73,8 +73,6 @@ public class Main {
                     if(tablaBingo[i][j] == numero){
                         System.out.println("El numero " + numero + " se encuentra en la posición [" + i + "][" + j + "]");
                         tablaBingo[i][j] = 0;
-                    }else{
-                        System.out.println("El numero " + numero + " no se encuentra en la posición [" + i + "][" + j + "]");
                     }
 
                     
@@ -84,7 +82,7 @@ public class Main {
 
             for(int i = 0; i < tablaBingo.length; i++){
                 for(int j = 0; j < tablaBingo[i].length; j++){
-                System.out.print(tablaBingo[i][j] + " ");
+                System.out.print(tablaBingo[i][j] + "\t ");
             }
             System.out.println();
         }
@@ -99,9 +97,7 @@ public class Main {
             System.out.println();
         }
        
-
         
-
 
 
         
